@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .emoji {
+            width: 220px;
+            margin: 100px auto;
+            height: 200px;
+        }
+
+        .emoji img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="./windowClosePrompt.js"></script>
+    <script src="./tabChangeEvent.js"></script>
+    <script>
+        windowClosePrompt.initialize();
+        tabChangeEventDetect.initialize();
+    </script>
+</body>
+<div class="emoji">
+    <img id="emoji_type">
+    <br>
+    <br>
+    <b>
+        <span id="message"></span>
+        <span id="countDown"></span>
+    </b>
+</div>
+
+</html>
